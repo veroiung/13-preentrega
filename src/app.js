@@ -67,6 +67,7 @@ app.use("/carts", views);
 app.use("/users", usersViewRouter);
 app.use("/api/users", userRouter);
 app.use("/api/ticket", ticketRouter);
+app.use("/mockingproducts", mockProd);
 
 
 const PORT = configEnv.port ;
